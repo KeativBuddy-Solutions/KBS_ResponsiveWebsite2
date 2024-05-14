@@ -24,16 +24,16 @@
                <label for="FullName">Full Name:</label>
                <input type="text" placeholder="....Full Name" name="FullName" id="FullName" required>
                <label for="EmailAddress">Email Address:</label>
-               <input type="text" placeholder="Enter Email Address" name="EmailAddress" id="EmailAddress" required><br>
+               <input type="email" placeholder="Enter Email Address" name="EmailAddress" id="EmailAddress" required><br>
                <label for="ContactNumber">Contact Number:</label>
-               <input type="text" placeholder="Enter Contact Number" name="ContactNumber" id="ContactNumber" required>
+               <input type="number" placeholder="Enter Contact Number" name="ContactNumber" id="ContactNumber" required>
                <label for="Subject">Subject:</label>
                <input type="text" placeholder="Enter Subject" name="Subject" id="Subject" required><br>
                <label for="Message">Message:</label><br>
                <textarea id="Message" name="Message" placeholder="Write something.." >
                </textarea><br>
-               <button type="button" class="submitbtn">Submit</button>
-               <button type="button" class="cancelbtn">Cancel</button>
+               <button type="button" class="submitbtn" onclick="alert('Thank You For Your Time.')">Submit</button>
+               <button type="button" class="cancelbtn" onclick="format(form)">Cancel</button>
             </form>
         </main><br><br>
         <aside id="contactInfo">
@@ -55,7 +55,7 @@
         </aside><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36349200.56122398!2d-98.89979136914133!3d56.
                 216230835648574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1715598936921!5m2!1sen!2sza" 
-                width="600" height="450" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Map
+                width="100%" height="450" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Map
         </iframe>
         <br><br>
         <section class="Developer">
@@ -64,30 +64,29 @@
               Let’s explore how KreativBuddy Solutions can work for you.
            </p>
            <main class="Services">  
-             <form action="confirm.php">
-               <label for="FullName">Full Name:</label>
-               <input type="text" placeholder="eg.Lestrad Black" name="FullName" id="FullName" required>
-               <label for="Country">Country:</label>
-               <input type="text" placeholder="eg.South Sudan" name="Country" id="Country" required><br>
-               <label for="EmailAddress">Email Address:</label>
-               <input type="text" placeholder="eg.kbs@gmail.com" name="EmailAddress" id="EmailAddress" required>
-               <label for="ContactNumber">Contact Number:</label>
-               <input type="text" placeholder="eg.+2789562..." name="ContactNumber" id="ContactNumber" required><br>
-               <label for="Sector">Contact Preference</label>
-               <select name="Preferance" id="Preferance">
-                 <option value="EmailAddress">Email Address</option>
-                 <option value="ContactNumber">Contact Number</option>
-               </select> <br> 
-               <label for="Company">Company:</label>
-               <input type="text" placeholder="Business Or Company Name" name="Company" id="Company" required>
-               <label for="Service">Service:</label>
-               <input type="text" placeholder="Service or Solution Required" name="Service" id="Service" required><br>
-               <label for="Notes">Notes:</label><br>
-               <textarea id="Notes" name="Notes" placeholder="Additional Requests.." >
-               </textarea><br>
-               <button type="button" class="confirmtbtn">Confirm</button>
-               <button type="button" class="cancelbtn">Cancel</button>
-             </form>
+            <form action="confirm.php">
+              <label for="FullName">Full Name:</label>
+              <input type="text" placeholder="eg.Lestrad Black" name="FullName" id="FullName" required>
+              <label for="Country">Country:</label>
+              <input type="text" placeholder="eg.South Sudan" name="Country" id="Country" required><br><br>
+              <label for="EmailAddress">Email Address:</label>
+              <input type="email" placeholder="eg.kbs@gmail.com" name="EmailAddress" id="EmailAddress" required>
+              <label for="ContactNumber">Contact Number:</label>
+              <input type="number" placeholder="eg.+2789562..." name="ContactNumber" id="ContactNumber" required><br><br>
+              <label for="Sector">Contact Preference</label>
+              <select name="Preferance" id="Preferance">
+                <option value="EmailAddress">Email Address</option>
+                <option value="ContactNumber">Contact Number</option>
+              </select> <br> <br>
+              <label for="Company">Company:</label>
+              <input type="text" placeholder="Business Or Company Name" name="Company" id="Company" required>
+              <label for="Service">Service:</label>
+              <input type="text" placeholder="Service or Solution Required" name="Service" id="Service" required><br><br>
+              <label for="Notes">Notes:</label><br>
+              <textarea id="Notes" name="Notes" placeholder="Additional Requests.." >
+              </textarea><br><br>
+              <button type="button" class="confirmtbtn" onclick="alert('Thank You For Your Query. Expect To Hear From Us Soon.')">Confirm</button>
+            </form>
            </main>
         </section> 
         <a href="Contact.html" target='_top'> Back to Top</a><br><br><br><br><br><br><br>
