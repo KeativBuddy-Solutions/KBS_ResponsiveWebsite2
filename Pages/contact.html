@@ -8,13 +8,18 @@
     </head>
     <body>
         <header>
-            <img src="../Images/KreativBuddy Solutions_transparent.png" alt="TransparentLogo" width="auto" height="140">
-            <nav>
-                <a href="../index.html">Homepage</a>
-                <a href="About.html">About</a>
-                <a href="Solutions.html">Solutions</a>
-            </nav>
-        </header>
+            <div class="container">
+                <img src="../Images/KreativBuddy Solutions_transparent.png" alt="KreativBuddy Solutions Logo" width="auto" height="140">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./pages/solutions.html">Solutions</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
+                        <li><a href="../about.html">About </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
         <p>Dear customer, please don't be a stranger.<br> 
             Feel free to leave us with any comments you might have or visit us in person.<br>
             We look forward to hearing from you.
@@ -52,44 +57,45 @@
                 Saturday: 08:00 - 12:00<br>
                 Sunday & Public Holidays: Closed<br>
             </p>
-        </aside><br>
+            
+        </aside><br><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36349200.56122398!2d-98.89979136914133!3d56.
                 216230835648574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1715598936921!5m2!1sen!2sza" 
                 width="100%" height="450" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Map
         </iframe>
         <br><br>
         <section class="Developer">
-           <p>
+            <p class="three">
               <h2>Contact Our Development Team </h2>
               Let’s explore how KreativBuddy Solutions can work for you.
            </p>
            <main class="Services">  
-            <form action="confirm.php">
-              <label for="FullName">Full Name:</label>
-              <input type="text" placeholder="eg.Lestrad Black" name="FullName" id="FullName" required>
-              <label for="Country">Country:</label>
-              <input type="text" placeholder="eg.South Sudan" name="Country" id="Country" required><br><br>
-              <label for="EmailAddress">Email Address:</label>
-              <input type="email" placeholder="eg.kbs@gmail.com" name="EmailAddress" id="EmailAddress" required>
-              <label for="ContactNumber">Contact Number:</label>
-              <input type="number" placeholder="eg.+2789562..." name="ContactNumber" id="ContactNumber" required><br><br>
-              <label for="Sector">Contact Preference</label>
-              <select name="Preferance" id="Preferance">
-                <option value="EmailAddress">Email Address</option>
-                <option value="ContactNumber">Contact Number</option>
-              </select> <br> <br>
-              <label for="Company">Company:</label>
-              <input type="text" placeholder="Business Or Company Name" name="Company" id="Company" required>
-              <label for="Service">Service:</label>
-              <input type="text" placeholder="Service or Solution Required" name="Service" id="Service" required><br><br>
-              <label for="Notes">Notes:</label><br>
-              <textarea id="Notes" name="Notes" placeholder="Additional Requests.." >
-              </textarea><br><br>
-              <button type="button" class="confirmtbtn" onclick="alert('Thank You For Your Query. Expect To Hear From Us Soon.')">Confirm</button>
-            </form>
+             <form action="confirm.php">
+               <label for="FullName">Full Name:</label>
+               <input type="text" placeholder="eg.Lestrad Black" name="FullName" id="FullName" required>
+               <label for="Country">Country:</label>
+               <input type="text" placeholder="eg.South Sudan" name="Country" id="Country" required><br><br>
+               <label for="EmailAddress">Email Address:</label>
+               <input type="email" placeholder="eg.kbs@gmail.com" name="EmailAddress" id="EmailAddress" required>
+               <label for="ContactNumber">Contact Number:</label>
+               <input type="number" placeholder="eg.+2789562..." name="ContactNumber" id="ContactNumber" required><br><br>
+               <label for="Sector">Contact Preference</label>
+               <select name="Preferance" id="Preferance">
+                 <option value="EmailAddress">Email Address</option>
+                 <option value="ContactNumber">Contact Number</option>
+               </select> <br> <br>
+               <label for="Company">Company:</label>
+               <input type="text" placeholder="Business Or Company Name" name="Company" id="Company" required>
+               <label for="Service">Service:</label>
+               <input type="text" placeholder="Service or Solution Required" name="Service" id="Service" required><br><br>
+               <label for="Notes">Notes:</label><br>
+               <textarea id="Notes" name="Notes" placeholder="Additional Requests.." >
+               </textarea><br><br>
+               <button type="button" class="confirmtbtn" onclick="alert('Thank You For Your Query. Expect To Hear From Us Soon.')">Confirm</button>
+             </form>
            </main>
         </section> 
-        <a href="Contact.html" target='_top'> Back to Top</a><br><br><br><br><br><br><br>
+        <a href="#top" id="back-to-top-btn" title="Go to top">Top</a><br><br><br><br><br><br><br>
         <footer>
          <p> &copy;2024 KreativBuddy Solutions. All rights reserved</p>
         </footer>
