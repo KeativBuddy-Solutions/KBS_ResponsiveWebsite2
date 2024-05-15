@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(./fonts/Roboto-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url(./fonts/Roboto-Thin.ttf) format(truetype);
+}
 header{
     background-color: #1F2937;
     color: #F9FAF8;
-  
 }
 header a {
   float: left;
@@ -20,11 +27,121 @@ nav{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding-right: 100px;
+  color:#F9FAF8
 }
 
 nav a:hover{
   background-color: #ddd;
   color: black;
+}
+/* ---------------------------------- */
+
+/* index.html */
+#first {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1F2937;
+  gap: 20px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+#first h2 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+  margin: 0
+}
+#first p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+  font-family: Roboto-Regular;
+}
+#first img {
+  width: 400px;
+  height: 200px;
+  background-color: #979494;
+  margin-bottom: 50px;
+}
+button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: #E5E7EB;
+  cursor: pointer;
+  border: none;
+}
+#second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-right: 350px;
+  align-items: center;
+  justify-content: center;
+}
+#second h2 {
+  align-items: center;
+  justify-content: space-evenly;
+}
+#teams img{
+  height: 100px;
+  width: 100px;
+  border: medium solid #3882F6;
+  border-radius: 5px;
+  gap: 10px
+}
+#teams figcaption{
+  margin-bottom: 30px;
+  font-family: Roboto-Thin;
+}
+#teams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#second h2 {
+  justify-content: center;
+}
+#third {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color:#E5E7EB;
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: Roboto-Regular;
+}
+.spaced-text {
+  padding-left: 500px
+}
+#fourth {
+  margin-bottom: 80px;
+  margin-left: 350px;
+  margin-right: 350px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  padding: 20px;
+  color:#F9FAF8;
+  padding-left: 50px;
+}
+#fourth button {
+  border: thin solid white; 
+  width: 80px;
+  height: 20px;
+}
+#fourth p {
+  font-size: 15px;
+  margin-top: 0;
+  justify-content: space-between;
+}
+#fourth h3 {
+  justify-content: space-evenly;
+  margin-bottom: 0
+}
+#attract {
+  display: flex;
+  justify-content: space-evenly
 }
 /* ---------------------------------- */
 
