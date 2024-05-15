@@ -96,9 +96,9 @@ header img {
       margin: 15px;
   }
 }
-/* =================================== */
 
 /* Footer */
+
 footer{
     position: fixed;
     bottom: 0;
@@ -109,8 +109,8 @@ footer{
     text-align: center;
 }
 
-/* =============================== */
 /* About Page */
+
 main#about-mainPage {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -207,8 +207,7 @@ main#about-mainPage {
   #back-to-top-btn:hover {
     background-color: #555;
   }
-  
-  /* =============================== */
+
   /* Contact Styles */
   #conStyle {
     font-family: Arial, sans-serif;
