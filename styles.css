@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-=======
-@font-face {
-  font-family: 'Roboto-Regular';
-  src: url(./fonts/Roboto-Regular.ttf) format(truetype);
-}
-@font-face {
-  font-family: 'Roboto-Thin';
-  src: url(./fonts/Roboto-Thin.ttf) format(truetype);
-}
-header{
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
->>>>>>> ac228e0 (changing to lowercase)
 * {
   margin: 0;
   padding: 0;
@@ -70,20 +55,6 @@ header img {
   margin:10px;
 }
 
-<<<<<<< HEAD
-=======
-nav{
-  float: right;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  padding-right: 100px;
-  color:#F9FAF8
-}
-
-nav a:hover{
->>>>>>> ac228e0 (changing to lowercase)
 .menu li a:hover {
   background-color: #ddd;
   color: black;
