@@ -1,99 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Us</title>
-        <link href="../styles.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <img src="../images/KreativBuddy-Solutions_transparent.png" alt="KreativBuddy Solutions Logo" width="auto" height="140">
-                <nav>
-                    <ul class="menu">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./pages/solutions.html">Solutions</a></li>
-                        <li><a href="../pages/contact.html">Contact</a></li>
-                        <li><a href="../pages/about.html">About </a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header> 
-        <main id="conStyle" class="content">
-            <h1>Contact Us</h1>
-            <br>
-            <p id="one"><b>Dear customer, please don't be a stranger.<br> 
-                Feel free to leave us with any comments you might have or visit us in person.<br>
-                We look forward to hearing from you.</b>
-            </p> <br><br>
-            <section class="contact-form">
-                <form action="submit.php">
-                <label for="FullName">Full Name:</label>
-                <input type="text" placeholder="Full Name" name="FullName" id="FullName" required>
-                <label for="EmailAddress">Email Address:</label>
-                <input type="email" placeholder="Enter Email Address" name="EmailAddress" id="EmailAddress" required><br>
-                <label for="ContactNumber">Contact Number:</label>
-                <input type="tel" placeholder="Enter Contact Number" name="ContactNumber" id="ContactNumber" required>
-                <label for="Subject">Subject:</label>
-                <input type="text" placeholder="Enter Subject" name="Subject" id="Subject" required><br>
-                <label for="Message">Message:</label>
-                <textarea id="Message" name="Message" placeholder="Write something.." ></textarea><br>
-                <button type="submit" class="submitbtn">Submit</button>
-                <button type="reset" class="cancelbtn" >Cancel</button>
-                </form>
-            </section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36349200.56122398!2d-98.89979136914133!3d56.216230835648574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1715598936921!5m2!1sen!2sza" 
-                    width="75%" height="390" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Map
-            </iframe><br>
-            <aside class="contact-info">
-                <h3>Contact Information</h3>
-                <p>
-                    <b>Physical Address:</b><br> 127 Exo Street,<br>GG Avenue,<br>Amber Square,<br>Japnorea,<br>1505<br>
-                    <b>Telephone:</b> +98 62 786 8091 <br>
-                    <b>Email Address:</b> kbsolutions@gmail.com <br>
-                    _____________________________
-                </p>
-                <h3>Office Hours</h3> 
-                <p>
-                    Monday - Thursday: 08:00 - 16:00<br>
-                    Friday: 08:00 - 14:00<br>
-                    Saturday: 08:00 - 12:00<br>
-                    Sunday & Public Holidays: Closed<br>
-                </p>
-            </aside> <br><br>
-            
-            <section id="contactScroll" class="developer-contact">
-                <h2>Contact Our Development Team</h2>
-                <p id="one">
-                Let’s explore how KreativBuddy Solutions can work for you.
-                </p>
-                <form action="confirm.php">
-                <label for="FullName">Full Name:</label>
-                <input type="text" placeholder="eg.Lestrad Black" name="FullName" id="FullName" required>
-                <label for="Country">Country:</label>
-                <input type="text" placeholder="eg.South Sudan" name="Country" id="Country" required><br>
-                <label for="EmailAddress">Email Address:</label>
-                <input type="email" placeholder="eg.kbs@gmail.com" name="EmailAddress" id="EmailAddress" required>
-                <label for="ContactNumber">Contact Number:</label>
-                <input type="tel" placeholder="eg.+2789562..." name="ContactNumber" id="ContactNumber" required><br>
-                <label for="Preferance">Contact Preference</label>
-                <select name="Preferance" id="Preferance">
-                    <option value="EmailAddress">Email Address</option>
-                    <option value="ContactNumber">Contact Number</option>
-                </select> <br>
-                <label for="Company">Company:</label>
-                <input type="text" placeholder="Business Or Company Name" name="Company" id="Company" required>
-                <label for="Service">Service:</label>
-                <input type="text" placeholder="Service or Solution Required" name="Service" id="Service" required><br>
-                <label for="Notes">Notes:</label>
-                <textarea id="Notes" name="Notes" placeholder="Additional Requests.." ></textarea><br>
-                <button type="submit" class="confirmbtn">Confirm</button>
-                </form>
-            </section>
-        </main>
-        <footer>
-            <p>&copy;2024 KreativBuddy Solutions. All rights reserved</p>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="../images/KreativBuddy-Solutions_transparent.png"
+          alt="KreativBuddy Solutions Logo"
+          width="auto"
+          height="140"
+        />
+        <nav>
+          <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./pages/solutions.html">Solutions</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/about.html">About </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="conStyle" class="content">
+      <h1>Contact Us</h1>
+      <br />
+      <p id="one">
+        <b
+          >Dear customer, please don't be a stranger.<br />
+          Feel free to leave us with any comments you might have or visit us in
+          person.<br />
+          We look forward to hearing from you.</b
+        >
+      </p>
+      <br /><br />
+      <section class="contact-form">
+        <form action="submit.php">
+          <label for="FullName">Full Name:</label>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="FullName"
+            id="FullName"
+            required
+          />
+          <label for="EmailAddress">Email Address:</label>
+          <input
+            type="email"
+            placeholder="Enter Email Address"
+            name="EmailAddress"
+            id="EmailAddress"
+            required
+          /><br />
+          <label for="ContactNumber">Contact Number:</label>
+          <input
+            type="tel"
+            placeholder="Enter Contact Number"
+            name="ContactNumber"
+            id="ContactNumber"
+            required
+          />
+          <label for="Subject">Subject:</label>
+          <input
+            type="text"
+            placeholder="Enter Subject"
+            name="Subject"
+            id="Subject"
+            required
+          /><br />
+          <label for="Message">Message:</label>
+          <textarea
+            id="Message"
+            name="Message"
+            placeholder="Write something.."
+          ></textarea
+          ><br />
+          <button type="submit" class="submitbtn">Submit</button>
+          <button type="reset" class="cancelbtn">Cancel</button>
+        </form>
+      </section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36349200.56122398!2d-98.89979136914133!3d56.216230835648574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1715598936921!5m2!1sen!2sza"
+        width="75%"
+        height="390"
+        style="border: 10"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        >Map </iframe
+      ><br />
+      <aside class="contact-info">
+        <h3>Contact Information</h3>
+        <p>
+          <b>Physical Address:</b><br />
+          127 Exo Street,<br />GG Avenue,<br />Amber Square,<br />Japnorea,<br />1505<br />
+          <b>Telephone:</b> +98 62 786 8091 <br />
+          <b>Email Address:</b> kbsolutions@gmail.com <br />
+          _____________________________
+        </p>
+        <h3>Office Hours</h3>
+        <p>
+          Monday - Thursday: 08:00 - 16:00<br />
+          Friday: 08:00 - 14:00<br />
+          Saturday: 08:00 - 12:00<br />
+          Sunday & Public Holidays: Closed<br />
+        </p>
+      </aside>
+      <br /><br />
+
+      <section id="contactScroll" class="developer-contact">
+        <h2>Contact Our Development Team</h2>
+        <p id="one">
+          Let’s explore how KreativBuddy Solutions can work for you.
+        </p>
+        <form action="confirm.php">
+          <label for="FullName">Full Name:</label>
+          <input
+            type="text"
+            placeholder="eg.Lestrad Black"
+            name="FullName"
+            id="FullName"
+            required
+          />
+          <label for="Country">Country:</label>
+          <input
+            type="text"
+            placeholder="eg.South Sudan"
+            name="Country"
+            id="Country"
+            required
+          /><br />
+          <label for="EmailAddress">Email Address:</label>
+          <input
+            type="email"
+            placeholder="eg.kbs@gmail.com"
+            name="EmailAddress"
+            id="EmailAddress"
+            required
+          />
+          <label for="ContactNumber">Contact Number:</label>
+          <input
+            type="tel"
+            placeholder="eg.+2789562..."
+            name="ContactNumber"
+            id="ContactNumber"
+            required
+          /><br />
+          <label for="Preferance">Contact Preference</label>
+          <select name="Preferance" id="Preferance">
+            <option value="EmailAddress">Email Address</option>
+            <option value="ContactNumber">Contact Number</option>
+          </select>
+          <br />
+          <label for="Company">Company:</label>
+          <input
+            type="text"
+            placeholder="Business Or Company Name"
+            name="Company"
+            id="Company"
+            required
+          />
+          <label for="Service">Service:</label>
+          <input
+            type="text"
+            placeholder="Service or Solution Required"
+            name="Service"
+            id="Service"
+            required
+          /><br />
+          <label for="Notes">Notes:</label>
+          <textarea
+            id="Notes"
+            name="Notes"
+            placeholder="Additional Requests.."
+          ></textarea
+          ><br />
+          <button type="submit" class="confirmbtn">Confirm</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;2024 KreativBuddy Solutions. All rights reserved</p>
+    </footer>
+  </body>
 </html>

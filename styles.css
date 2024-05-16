@@ -104,20 +104,19 @@ header img {
 }
 
 /* Footer */
-
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    align-content: center;
-    text-align: center;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-content: center;
+  text-align: center;
 }
 /* index.html */
-#first{
-  background-color:#1F2937;
+#first {
+  background-color: #1f2937;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
@@ -125,32 +124,32 @@ footer{
 #first img {
   width: 500px;
   height: 200px;
-  background-color:#666;
+  background-color: #666;
   margin-bottom: 30px;
   margin-right: 100px;
 }
-#first h2{
+#first h2 {
   font-size: 48px;
   font-weight: bolder;
-  color:#F9FAF8;
+  color: #f9faf8;
   margin-left: 150px;
 }
 #first p {
   font-size: 18px;
-  color:#E5E7EB;
+  color: #e5e7eb;
   margin-left: 180px;
 }
 #first button {
-  background-color: #3882F6;
-  Margin-left: 180px;
-  color:#E5E7EB;
+  background-color: #3882f6;
+  margin-left: 180px;
+  color: #e5e7eb;
   border: None;
   width: 60px;
   font-weight: thin;
   border-radius: 3px;
   cursor: pointer;
 }
-#second{
+#second {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -162,7 +161,7 @@ footer{
   margin-left: 250px;
   margin-bottom: 15px;
 }
-#teams  {
+#teams {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -177,10 +176,10 @@ footer{
   border-radius: 5px;
 }
 #third {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   font-size: 36px;
   font-family: light italic;
-  color: #1F2937;
+  color: #1f2937;
   margin-left: 70px;
   margin-right: 70px;
   padding: 40px;
@@ -190,8 +189,8 @@ footer{
   margin-left: 700px;
 }
 #fourth {
-  background-color:#3882F6;
-  display:flex;
+  background-color: #3882f6;
+  display: flex;
   flex-direction: column;
   margin-bottom: 60px;
   margin-left: 300px;
@@ -205,21 +204,22 @@ footer{
   justify-content: space-evenly;
 }
 #fourth h3 {
-  color:#F9FAF8;
-  margin-left: 60px
+  color: #f9faf8;
+  margin-left: 60px;
 }
 #fourth p {
-  color:#E5E7EB;
+  color: #e5e7eb;
 }
 #attract button {
-  color:#F9FAF8;
-  background-color:#3882F6;
-  border: solid thin #F9FAF8;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: solid thin #f9faf8;
   margin-bottom: 10px;
   width: 60px;
   border-radius: 3px;
   cursor: pointer;
 }
+
 /* About Page */
 
 main#about-mainPage {
@@ -314,15 +314,20 @@ main#about-mainPage {
   z-index: 1000;
   text-decoration: none;
 }
-  /* Contact Styles */
-  #conStyle {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 100px;
+
+#back-to-top-btn:hover {
+  background-color: #555;
+}
+
+/* Contact Styles */
+#conStyle {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -400,18 +405,7 @@ button[type='reset']:hover,
 button[type='button']:hover {
   background-color: #0f1620;
 }
-h1{
-  background-color: #1F2937;
-  color: #F9FAF8;
-  text-align: center;
-  padding: 10px 0;
-}
-#one{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
+
 aside.contact-info {
   margin-bottom: 20px;
 }
@@ -425,13 +419,8 @@ aside.contact-info p {
 }
 
 iframe {
-    position: relative;
-    float: right;
-    right: 0; 
-    top: 29px;
-    border-bottom: 100px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 section.developer-contact {
