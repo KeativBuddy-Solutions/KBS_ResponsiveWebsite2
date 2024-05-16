@@ -319,7 +319,7 @@ main#about-mainPage {
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 100px;
 }
 
 .container {
@@ -397,7 +397,18 @@ button[type="reset"]:hover,
 button[type="button"]:hover {
     background-color: #0F1620;
 }
-
+h1{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 10px 0;
+}
+#one{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
 aside.contact-info {
     margin-bottom: 20px;
 }
@@ -411,8 +422,14 @@ aside.contact-info p {
 }
 
 iframe {
+    position: relative;
+    float: right;
+    right: 0; 
+    top: 29px;
+    border-bottom: 100px;
     border: 1px solid #ccc;
     border-radius: 5px;
+   
 }
 
 section.developer-contact {
