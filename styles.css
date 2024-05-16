@@ -190,6 +190,8 @@ footer{
   margin-bottom: 60px;
   margin-left: 300px;
   margin-right: 300px;
+  padding: 20px;
+  border-radius: 5px;
 }
 #attract {
   display: flex;
