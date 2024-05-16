@@ -21,6 +21,11 @@ header {
   padding: 10px 0;
 }
 
+.logo {
+  width: 500px;
+  height: 160px;
+}
+
 header .container {
   display: flex;
   align-items: center;
