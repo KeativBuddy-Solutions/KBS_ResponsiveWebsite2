@@ -412,6 +412,7 @@ h2 {
 }
 aside.contact-info {
   margin-bottom: 20px;
+  clear: right;
 }
 
 aside.contact-info h3 {
@@ -426,7 +427,6 @@ iframe {
   position: relative;
   float: right;
   right: 0;
-  float: top;
   top: 29px;
   border-bottom: 100px;
   border: 1px solid #ccc;
@@ -443,6 +443,16 @@ section.developer-contact h2 {
 
 section.developer-contact p {
   color: #666;
+}
+
+@media only screen and (min-device-width: 600px) {
+  
+  iframe {
+      width: auto;
+      height: 390px;
+      margin: auto;
+      clear: right;
+  }
 }
 /* START---------------------------------- ! SOLUTION PAGE ! ------------------------------------------------------START */
 @font-face {
