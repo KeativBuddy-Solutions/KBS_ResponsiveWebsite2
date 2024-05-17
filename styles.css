@@ -444,13 +444,16 @@ section.developer-contact p {
   color: #666;
 }
 
-@media only screen and (min-device-width: 600px) {
+@media only screen and (max-width: 600px) {
   
   iframe {
       width: auto;
       height: 390px;
       margin: auto;
       clear: right;
+  }
+  aside.contact-info{
+      clear: left;
   }
 }
 /* START---------------------------------- ! SOLUTION PAGE ! ------------------------------------------------------START */
