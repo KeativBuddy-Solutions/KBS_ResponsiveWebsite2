@@ -1,2 +1,7 @@
-# KBS_ResponsiveWebsite2
- 
+[# KBS_ResponsiveWebsite2](https://keativbuddy-solutions.github.io/KBS_ResponsiveWebsite2/)
+
+Responsive 4 page website.
+
+HTML and CSS only.
+
+Has a header and footer.
